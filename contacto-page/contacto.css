@@ -1,0 +1,13 @@
+body {
+    background-color: #000; /* fundo preto */
+    color: #fff;            /* texto branco */
+  }
+
+  /* Garante que links também fiquem brancos */
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: #ccc; /* cinza claro ao passar o mouse */
+  }
