@@ -14,17 +14,28 @@
 <!--Fazer um melhor texto para apresentação do conteúdo-->
 
 <!--NAVBAR-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg">  <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">-->
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Felipa Sato</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarNavAltMarkup" 
+      aria-controls="navbarNavAltMarkup" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!--Itens do menu-->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+      <div class="navbar-nav ms-auto fs-5">
         <a class="nav-link" href="#">Home</a> <!--<a class="nav-link active" aria-current="page" href="#">Home</a>-->
         <a class="nav-link" href="#">Serviços</a>
-        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link active" aria-current="page" href="#">Blog</a>
         <a class="nav-link" href="#">Contacto</a>
       </div>
     </div>
@@ -32,22 +43,78 @@
 </nav>
 
 <!--CONTEÚDOS-->
-<div>
+<main>
 
-    <p>
+  <section
+  id="conteudo"
+  class="d-flex align-items-center justify-content-center min-vh-100">
+
+    <div class="container">
+
+      <p class="titulo-blog">
         Conteúdo
-    </p>
+      </p>
 
-    <p>
+      <p class="texto-blog">
         Aqui compartilho dicas, tutoriais e experiências do mundo da fotografia.
         Aprenda técnicas e acompanhe meus projetos mais recentes.
-    </p>
+      </p>
+
+    </div>
+  </section>
+
+<!--grid; box model-->
+<div class="row">
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Autorretrato</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 </div>
 
 
 
 
+</main>
 
 
 
