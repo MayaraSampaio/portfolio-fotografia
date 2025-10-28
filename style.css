@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+  background-color: #000; /* fundo preto */
+  color: #fff; /* texto branco */
+  font-family: 'Work-Sans';
+}
 
-/* font-family: "Work Sans", sans-serif;*/
+/* Garante que links também fiquem brancos */
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc; /* cinza claro ao passar o mouse */
+}
+/*Reverter a cor dos icones para branco*/
+ul.list-unstyled img {
+  filter: brightness(0) invert(1);
+}
