@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+ul.list-unstyled img {
+  filter: brightness(0) invert(1);
+}
+
+/*CONTEÚDOS*/
+.card {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #fff;
+  transition: transform .25s ease, box-shadow .25s ease;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card-img.top {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.02s ease-in-out;
+}
+
+/*zoom na imagem*/
+.card-img-top:hover {
+  transform: scale(1.04);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title{
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.card-text {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
