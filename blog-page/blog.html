@@ -43,7 +43,7 @@
   </div>
 </nav>
 
-<!--CONTEÚDOS-->
+<!--==========CONTEÚDO==========-->
 <main>
 
   <section id="id-conteudo">  <!--d-flex align-items-center justify-content-center min-vh-100--> <!--isto estava como class-->
@@ -65,21 +65,33 @@
 
   </section>
 
-<!--grid; box model-->
+<!--CARDS-->
 <div class="container-fluid">
 
 <div class="row">
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
 
-  <div class="col">
+  <div class="col"> 
     <div class="card h-100">
-      <img src="../assets/blog-camera.jpg" class="card-img-top" alt="...">
+      <!--Modal-->
+      <img 
+        src="../assets/blog-camera.jpg" 
+        class="card-img-top" 
+        alt="..."
+        role="button"
+        data-bs-toggle="modal" data-bs-target="#myModal"
+        >
       <div class="card-body">
         <h5 class="card-title">Camera</h5>
         <p class="card-text">
           Quais as melhores cameras do mercado para iniciantes? Às vezes é difícil escolher a câmera ideal para começar na fotografia. Neste artigo, exploro as melhores opções disponíveis, considerando fatores como orçamento, facilidade de uso e recursos essenciais para iniciantes.
         </p>
+        <!--TEST Button-->
+        <!--<a href="#" class="btn btn-primary">TESTE</a>-->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Artigo
+        </button>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Last updated 3 mins ago</small>
@@ -122,6 +134,47 @@
 </div>
 
 </div>
+
+
+<!--MODAL-->
+<!-- Full screen modal -->
+<div class="modal fade modal-fullscreen" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!--fullScreen class="modal-dialog modal-fullscreen-sm-down"-->
+  <div class="modal-dialog"> <!--tava "modal-header"-->
+    <div class="modal-content">
+
+      <!--Botão para voltar-->
+      <button type="button" class="btn">Voltar ao Blog</button>
+
+      <!--Modal Header-->
+      <div class="modal-header">
+        <h2 class="modal-title">Quais as melhores cameras?</h2>
+        <button type="button" class="btn-close" databs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!--Modal body-->
+      <div class="modal-body">
+        <p>
+          Às vezes é difícil escolher a câmera ideal para começar na fotografia. Neste artigo, exploro as melhores opções disponíveis, considerando fatores como orçamento, facilidade de uso e recursos essenciais para iniciantes.
+        </p>
+      </div>
+
+      <!--Modal footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 </main>
 
