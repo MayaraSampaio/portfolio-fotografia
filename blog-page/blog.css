@@ -15,47 +15,5 @@ ul.list-unstyled img {
   filter: brightness(0) invert(1);
 }
 
+/*CONTEÚDOS*/
 
-
-
-/* 
-* {
-  background-color: #000;
-  color: #fff;
-  font-family: "Work Sans", sans-serif;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-}
-
-NAVBAR
-.navbar {
-  position: absolute;
-}
-
-.container-fluid {
-  color: #fff;
-}
-
-.navbar-brand {
-  color: #fff;
-}
-
-.nav-link {
-  color: #fff;
-  display: flex;;
-  justify-content: flex-end;
-}
-
-.conteudo {
-  background-color: pink;
-}
-
-.titulo-blog {
-  background-color: pink;
-}
-
-.texto-blog {
-  background-color: red;
-} 
-  */
