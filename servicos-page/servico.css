@@ -16,3 +16,23 @@ font-family:"Work Sans", sans-serif;
 .card-style{
   max-width: 20rem;
 }
+
+
+body {
+  background-color: #000; /* fundo preto */
+  color: #fff; /* texto branco */
+  font-family: 'Work-Sans';
+}
+
+/* Garante que links também fiquem brancos */
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc; /* cinza claro ao passar o mouse */
+}
+/*Reverter a cor dos icones para branco*/
+ul.list-unstyled img {
+  filter: brightness(0) invert(1);
+}
