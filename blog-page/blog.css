@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   background-color: #000;
   color: #fff;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -31,12 +34,11 @@ ul.list-unstyled img {
 }
 
 .card-img.top {
-  background-image: url('../assets/blog-camera.jpg');
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
-  transition: transform .35s ease;
+  transition: transform 0.02s ease-in-out;
 }
 
 /*zoom na imagem*/
