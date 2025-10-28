@@ -1,3 +1,24 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+ul.list-unstyled img {
+  filter: brightness(0) invert(1);
+}
+
+
+
+
+/* 
 * {
   background-color: #000;
   color: #fff;
@@ -7,7 +28,7 @@
   scroll-behavior: smooth;
 }
 
-/*NAVBAR*/
+NAVBAR
 .navbar {
   position: absolute;
 }
@@ -22,6 +43,8 @@
 
 .nav-link {
   color: #fff;
+  display: flex;;
+  justify-content: flex-end;
 }
 
 .conteudo {
@@ -34,4 +57,5 @@
 
 .texto-blog {
   background-color: red;
-}
+} 
+  */
