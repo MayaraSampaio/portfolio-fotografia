@@ -6,32 +6,31 @@ body {
   color: #fff; /* texto branco */
   font-family: 'Work Sans';
 }
-#h1-intro{
-font-size: 100px;
-letter-spacing: 0px; 
+#h1-intro {
+  font-size: 100px;
+  letter-spacing: 0px;
 }
 
-#assinatura{
-font-family: "Monsieur La Doulaise", cursive;
-font-size: 60px;
+#assinatura {
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 60px;
 }
 
-#img-perfil{
+#img-perfil {
   border-radius: 30px;
 }
 
-.card-style{
+.card-style {
   max-width: 20rem;
 }
-.card{
+.card {
   transition: all 0.3s;
   border-radius: 30px;
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
-.card:hover{
+.card:hover {
   transform: scale(1.08);
 }
-
 
 /* Garante que links também fiquem brancos */
 a {
@@ -73,4 +72,11 @@ ul.list-unstyled img {
   .card.bg-black img {
     height: 240px;
   }
+}
+
+/* Transição mais suave nos carrosséis (fade) */
+.carousel-fade .carousel-item {
+  transition-property: opacity;
+  transition-duration: 0.9s; /* duração mais longa para suavidade */
+  transition-timing-function: ease-in-out; /* easing suave */
 }
