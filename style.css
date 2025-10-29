@@ -9,6 +9,7 @@ body {
 /* Garante que links também fiquem brancos */
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -16,5 +17,33 @@ a:hover {
 }
 /*Reverter a cor dos icones para branco*/
 ul.list-unstyled img {
+  display: block;
+  width: 30px;
+  height: 30px;
   filter: brightness(0) invert(1);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+/* Normaliza as imagens dos cards do carrossel */
+.card.bg-black img {
+  width: 100%;
+  height: 380px; /* altura fixa para desktop */
+  object-fit: cover; /* preenche o espaço cortando o excesso */
+  object-position: center; /* centraliza o corte */
+  display: block;
+  border-radius: 4px;
+}
+
+/* Ajuste responsivo: em telas menores, deixa um pouco mais baixo
+   pra não ficar gigante no telemóvel */
+@media (max-width: 768px) {
+  .card.bg-black img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card.bg-black img {
+    height: 240px;
+  }
 }
