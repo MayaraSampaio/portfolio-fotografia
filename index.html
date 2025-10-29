@@ -1,414 +1,299 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Felipa Sato - Portfolio</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+  <title>Felipa Sato - Portfolio</title>
 
-    <!-- Seu CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 
-  <body>
-    <!-- NAVBAR -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Felipa Sato</a>
+  <!-- Seu CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Alternar navegação"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+  <a class="navbar-brand" href="/index.html">Felipa Sato</a>
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto fs-5">
-              <a class="nav-link active" href="index.html">Home</a>
-              <a class="nav-link" href="servicos-page/servico.html">Serviços</a>
-              <a class="nav-link" href="blog-page/blog.html">Blog</a>
-              <a class="nav-link" href="contacto-page/contacto.html"
-                >Contacto</a
-              >
-            </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto fs-5">
+            <a class="nav-link active" href="/index.html">Home</a>
+            <a class="nav-link" href="/servicos-page/servico.html">Serviços</a>
+            <a class="nav-link" href="/blog-page/blog.html">Blog</a>
+            <a class="nav-link" href="/contacto-page/contacto.html">Contato</a>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <!-- introdution -->
-      <section id="intro">
-        <div class="container mt-1">
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-6 mt-5">
-              <h1 id="h1-intro" class="mb-0">Felipa Sato</h1>
-              <div>
-                <h6 class="mb-5 d-flex justify-content-start text-white-50">
-                  Fotógrafa Profissional
-                </h6>
-              </div>
-
-              <p>
-                Olá! Sou Felipa Sato fotógrafa profissional especializada em
-                capturar momentos únicos e emocionantes. Com mais de 10 anos de
-                experiência, tenho paixão por contar histórias através das
-                minhas lentes.
-              </p>
-              <p class="py-3">
-                Meu trabalho abrange desde retratos intimistas até grandes
-                eventos, sempre buscando a perfeição em cada detalhe. Acredito
-                que cada fotografia deve transmitir emoção e autenticidade.
-              </p>
-
-              <div class="d-flex justify-content-end">
-                <h1 id="assinatura" class="mt-5">Felipa Sato</h1>
-              </div>
-            </div>
-            <div class="col-12 col-lg-6">
-              <div>
-                <img
-                  id="img-perfil"
-                  src="assets/perfil.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- GALERIA / CARROSSEL -->
-      <section class="py-5 text-white bg-black">
-        <div class="container text-center mb-4">
-          <h1 class="mb-3">Meu Trabalho</h1>
-          <p class="text-secondary">Sessões em estúdio e casamentos reais.</p>
-        </div>
-
-        <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <!-- SLIDE 1 (casamento)-->
-            <div class="carousel-item active">
-              <div class="container">
-                <div
-                  class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
-                >
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/casamento-new-pb1.jpg"
-                        alt="Retrato em estúdio 1"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/casamento4.jpg"
-                        alt="Retrato em estúdio 2"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/casamento-pb-ok.jpg"
-                        alt="Retrato em estúdio 3"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- SLIDE 2 (casamento) -->
-            <div class="carousel-item">
-              <div class="container">
-                <div
-                  class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
-                >
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/casamento-things-3.jpg"
-                        alt="Casamento 4"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/casamento-things-2.jpg"
-                        alt="Retrato em estúdio 6"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/casamento-things-1.jpg"
-                        alt="Retrato em estúdio 7"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- SLIDE 3 (Casamento) -->
-            <div class="carousel-item">
-              <div class="container">
-                <div
-                  class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
-                >
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img src="/assets/casamento1.jpg" alt="Casamento 1" />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img src="/assets/casamento2.jpg" alt="Casamento 2" />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img src="/assets/casamento3.jpg" alt="Casamento 3" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- SETAS -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#cardCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#cardCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Próximo</span>
-          </button>
-        </div>
-      </section>
-
-      <section class="py-5 text-white bg-black">
-        <div
-          id="cardCarouselEstudio"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <!-- SLIDE 1 (Estúdio) -->
-            <div class="carousel-item active">
-              <div class="container">
-                <div
-                  class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
-                >
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/estudio1.jpg"
-                        alt="Retrato em estúdio 1"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/estudio2.jpg"
-                        alt="Retrato em estúdio 2"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/estudio3.jpg"
-                        alt="Retrato em estúdio 3"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- SLIDE 2 (Estúdio) -->
-            <div class="carousel-item">
-              <div class="container">
-                <div
-                  class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
-                >
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img src="/assets/estudio5.jpg" alt="Casamento 1" />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img src="/assets/estudio4.jpg" alt="Casamento 2" />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img src="/assets/estudio6.jpg" alt="Casamento 3" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- SLIDE 3 (Estúdio) -->
-            <div class="carousel-item">
-              <div class="container">
-                <div
-                  class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"
-                >
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img src="/assets/estudio-new3.jpg" alt="Casamento 4" />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/studio-new.jpg"
-                        alt="Retrato em estúdio 6"
-                      />
-                    </div>
-                  </div>
-
-                  <div class="col">
-                    <div class="card bg-black border border-secondary">
-                      <img
-                        src="/assets/estudio-new-1.jpg"
-                        alt="Retrato em estúdio 7"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- SETAS -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#cardCarouselEstudio"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-          </button>
-
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#cardCarouselEstudio"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Próximo</span>
-          </button>
-        </div>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="container-fluid text-center text-white py-5 bg-black">
-      <div>
-        <hr class="border-secondary" />
-        <h5>Felipa Sato</h5>
-
-        <ul
-          class="list-unstyled d-flex justify-content-center align-items-center gap-2 m-0 p-0"
-        >
-          <li>
-            <a
-              href="#"
-              class="text-white text-decoration-none d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/icons/insta-icon.svg"
-                alt="Instagram"
-                width="30"
-                height="30"
-              />
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="#"
-              class="text-white text-decoration-none d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/icons/linkedin-icon.svg"
-                alt="LinkedIn"
-                width="30"
-                height="30"
-              />
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="#"
-              class="text-white text-decoration-none d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/icons/facebook-icon.svg"
-                alt="Facebook"
-                width="30"
-                height="30"
-              />
-            </a>
-          </li>
-        </ul>
-
-        <p class="footer-credit m-3">Powered by Aricia, Jandira and Mayara</p>
       </div>
-    </footer>
+    </nav>
+  </header>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <main>
+    <!-- introdution -->
+    <section id="intro">
+      <div class="container mt-1 ">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6 mt-5">
+            <h1 id="h1-intro" class="mb-0">Felipa Sato</h1>
+            <div>
+              <h6 class="mb-5 d-flex justify-content-start text-white-50">Fotógrafa Profissional</h6>
+            </div>
+
+            <p>Olá! Sou Felipa Sato fotógrafa profissional especializada em capturar momentos únicos e emocionantes. Com
+              mais de 10 anos de experiência, tenho paixão por contar histórias através das minhas lentes.</p>
+            <p class="py-3">Meu trabalho abrange desde retratos intimistas até grandes eventos, sempre buscando a
+              perfeição em cada detalhe. Acredito que cada fotografia deve transmitir emoção e autenticidade.</p>
+
+            <div class="d-flex justify-content-end ">
+              <h1 id="assinatura" class="mt-5">Felipa Sato</h1>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6">
+            <div>
+              <img id="img-perfil" src="assets/perfil.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- GALERIA / CARROSSEL -->
+    <section class="py-5 text-white bg-black">
+      <div class="container text-center mb-4">
+        <h1 class="mb-3">Meu Trabalho</h1>
+        <p class="text-secondary">Sessões em estúdio e casamentos reais.</p>
+      </div>
+
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- SLIDE 1 (casamento)-->
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento-new-pb1.jpg" alt="Retrato em estúdio 1" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento4.jpg" alt="Retrato em estúdio 2" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento-pb-ok.jpg" alt="Retrato em estúdio 3" />
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- SLIDE 2 (casamento) -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento-things-3.jpg" alt="Casamento 4" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento-things-2.jpg" alt="Retrato em estúdio 6" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento-things-1.jpg" alt="Retrato em estúdio 7" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SLIDE 3 (Casamento) -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento1.jpg" alt="Casamento 1" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento2.jpg" alt="Casamento 2" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/casamento3.jpg" alt="Casamento 3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- SETAS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="py-5 text-white bg-black">
+      <div id="cardCarouselEstudio" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- SLIDE 1 (Estúdio) -->
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio1.jpg" alt="Retrato em estúdio 1" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio2.jpg" alt="Retrato em estúdio 2" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio3.jpg" alt="Retrato em estúdio 3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 (Estúdio) -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio5.jpg" alt="Casamento 1" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio4.jpg" alt="Casamento 2" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio6.jpg" alt="Casamento 3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 (Estúdio) -->
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio-new3.jpg" alt="Casamento 4" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/studio-new.jpg" alt="Retrato em estúdio 6" />
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card bg-black border border-secondary">
+                    <img src="/assets/estudio-new-1.jpg" alt="Retrato em estúdio 7" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SETAS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#cardCarouselEstudio" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#cardCarouselEstudio" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid text-center text-white py-5 bg-black">
+    <div>
+      <hr class="border-secondary" />
+      <h5>Felipa Sato</h5>
+
+      <ul class="list-unstyled d-flex justify-content-center align-items-center gap-2 m-0 p-0">
+        <li>
+          <a href="#" class="text-white text-decoration-none d-flex align-items-center justify-content-center">
+            <img src="/assets/icons/insta-icon.svg" alt="Instagram" width="30" height="30" />
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="text-white text-decoration-none d-flex align-items-center justify-content-center">
+            <img src="/assets/icons/linkedin-icon.svg" alt="LinkedIn" width="30" height="30" />
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="text-white text-decoration-none d-flex align-items-center justify-content-center">
+            <img src="/assets/icons/facebook-icon.svg" alt="Facebook" width="30" height="30" />
+          </a>
+        </li>
+      </ul>
+
+      <p class="footer-credit m-3">Powered by Aricia, Jandira and Mayara</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

@@ -1,10 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
 
 body {
   background-color: #000; /* fundo preto */
   color: #fff; /* texto branco */
   font-family: 'Work Sans';
 }
+#h1-intro{
+font-size: 100px;
+letter-spacing: 0px; 
+}
+
+#assinatura{
+font-family: "Monsieur La Doulaise", cursive;
+font-size: 60px;
+}
+
+#img-perfil{
+  border-radius: 30px;
+}
+
+.card-style{
+  max-width: 20rem;
+}
+.card{
+  transition: all 0.3s;
+  border-radius: 30px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+.card:hover{
+  transform: scale(1.08);
+}
+
 
 /* Garante que links também fiquem brancos */
 a {

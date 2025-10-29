@@ -1,296 +1,278 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <!--bootstrap-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="blog.css" />
-  </head>
-  <body>
-    <!--TODO:-->
-    <!--Fazer um melhor texto para apresentação do conteúdo-->
+    <link rel="stylesheet" href="blog.css">
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--TODO:-->
+<!--Fazer um melhor texto para apresentação do conteúdo-->
 
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-      <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">-->
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Felipa Sato</a>
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">  <!--<nav class="navbar navbar-expand-lg bg-body-tertiary">-->
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Felipa Sato</a>
 
-        <!--Botão de menu-->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <!--Botão de menu-->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Itens do menu-->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto fs-5">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Serviços</a>
+        <a class="nav-link active" aria-current="page" href="#">Blog</a>  <!--<a class="nav-link active" aria-current="page" href="#">Blog</a>-->
+        <a class="nav-link" href="#">Contacto</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!--==========CONTEÚDO==========-->
+<main>
+
+  <section id="id-conteudo">  <!--d-flex align-items-center justify-content-center min-vh-100--> <!--isto estava como class-->
+
+      <div class="container-fluid bg-black text-white py-5">
+        <div>
+          <h1 class="text-5x1 font-weight-bold text-center mb-4"> <!--class="text-center">-->
+            Conteúdo
+          </h1>
+        </div>
+
+        <div>
+          <p class="text-xl text-center mx-auto" style="max-width: 600px;">
+            Aqui compartilho dicas, tutoriais e experiências do mundo da fotografia.
+            Aprenda técnicas e acompanhe meus projetos mais recentes.
+          </p>
+        </div>
+      </div>
+
+  </section>
+
+<!--CARDS-->
+<div class="container-fluid">
+
+<div class="row">
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+  <div class="col">
+    <div class="card h-100">
+      <!--Modal-->
+      <img
+        src="../assets/blog-camera.jpg"
+        class="card-img-top"
+        alt="..."
+        role="button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!--Itens do menu-->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto fs-5">
-            <a class="nav-link" href="../index.html">Home</a>
-            <a class="nav-link" href="../servicos-page/servico.html"
-              >Serviços</a
-            >
-            <a class="nav-link active" aria-current="page" href="blog.html"
-              >Blog</a
-            >
-            <a class="nav-link" href="../contacto-page/contacto.html"
-              >Contacto</a
-            >
-          </div>
-        </div>
+      <div class="card-body">
+        <h5 class="card-title">Camera</h5>
+        <p class="card-text">
+          Quais as melhores cameras do mercado para iniciantes? Às vezes é difícil escolher a câmera ideal para começar na fotografia. Neste artigo, exploro as melhores opções disponíveis, considerando fatores como orçamento, facilidade de uso e recursos essenciais para iniciantes.
+        </p>
       </div>
-    </nav>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
 
-    <!--==========CONTEÚDO==========-->
-    <main>
-      <section id="id-conteudo">
-        <!--d-flex align-items-center justify-content-center min-vh-100-->
-        <!--isto estava como class-->
+  <div class="col">
+    <div class="card h-100">
+      <img src="../assets/blog-fisheye.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fisheye</h5>
+        <p class="card-text">
+          Uma lente fisheye (ou olho de peixe) é uma lente ultra grande angular que capta uma visão panorâmica de até 180 graus ou mais, resultando numa imagem com distorção visual acentuada. Essa distorção curva linhas retas, conferindo às fotografias um efeito único, surreal e criativo.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
 
-        <div class="container-fluid bg-black text-white py-5">
-          <div>
-            <h1 class="text-5x1 font-weight-bold text-center mb-4">
-              <!--class="text-center">-->
-              Conteúdo
-            </h1>
-          </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="../assets/blog-selfie.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Autorretrato</h5>
+        <p class="card-text">
+          Um autorretrato é uma representação artística da própria pessoa, feita pelo próprio artista em várias formas como pintura, desenho, fotografia ou literatura. Serve como uma "autobiografia visual" que permite ao criador expressar a sua própria essência, sentimentos, estado emocional e visão de si mesmo, sendo também uma forma de auto-reflexão e exploração da identidade.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
 
-          <div>
-            <p class="text-xl text-center mx-auto" style="max-width: 600px">
-              Aqui compartilho dicas, tutoriais e experiências do mundo da
-              fotografia. Aprenda técnicas e acompanhe meus projetos mais
-              recentes.
-            </p>
-          </div>
-        </div>
-      </section>
+</div>
 
-      <!--CARDS-->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <!--Modal-->
-                <img
-                  src="../assets/blog-camera.jpg"
-                  class="card-img-top"
-                  alt="..."
-                  role="button"
-                  data-bs-toggle="modal"
-                  data-bs-target="#myModal"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Camera</h5>
-                  <p class="card-text">
-                    Quais as melhores cameras do mercado para iniciantes? Às
-                    vezes é difícil escolher a câmera ideal para começar na
-                    fotografia. Neste artigo, exploro as melhores opções
-                    disponíveis, considerando fatores como orçamento, facilidade
-                    de uso e recursos essenciais para iniciantes.
-                  </p>
-                  <!--TEST Button-->
-                  <!--<a href="#" class="btn btn-primary">TESTE</a>-->
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    Artigo
-                  </button>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary"
-                    >Last updated 3 mins ago</small
-                  >
-                </div>
-              </div>
-            </div>
+</div>
 
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="../assets/blog-fisheye.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Fisheye</h5>
-                  <p class="card-text">
-                    Uma lente fisheye (ou olho de peixe) é uma lente ultra
-                    grande angular que capta uma visão panorâmica de até 180
-                    graus ou mais, resultando numa imagem com distorção visual
-                    acentuada. Essa distorção curva linhas retas, conferindo às
-                    fotografias um efeito único, surreal e criativo.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary"
-                    >Last updated 3 mins ago</small
-                  >
-                </div>
-              </div>
-            </div>
+</div>
 
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="../assets/blog-selfie.jpg"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Autorretrato</h5>
-                  <p class="card-text">
-                    Um autorretrato é uma representação artística da própria
-                    pessoa, feita pelo próprio artista em várias formas como
-                    pintura, desenho, fotografia ou literatura. Serve como uma
-                    "autobiografia visual" que permite ao criador expressar a
-                    sua própria essência, sentimentos, estado emocional e visão
-                    de si mesmo, sendo também uma forma de auto-reflexão e
-                    exploração da identidade.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-body-secondary"
-                    >Last updated 3 mins ago</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+<!--MODAL-->
+<!-- Full screen modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-scrollable modal-fullscreen"> <!--class="modal-dialog modal-scrollable modal-fullscreen"--> <!--tava "modal-header"-->
+    <div class="modal-content">
+
+      <!--Modal Header-->
+      <div class="modal-header">
+        <h2 class="modal-title">Quais as melhores cameras?</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
-      <!--MODAL-->
-      <!-- Full screen modal -->
-      <div
-        class="modal fade modal-fullscreen"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <!--fullScreen class="modal-dialog modal-fullscreen-sm-down"-->
-        <div class="modal-dialog">
-          <!--tava "modal-header"-->
-          <div class="modal-content">
-            <!--Botão para voltar-->
-            <button type="button" class="btn">Voltar ao Blog</button>
+      <div class="modal-body">
 
-            <!--Modal Header-->
-            <div class="modal-header">
-              <h2 class="modal-title">Quais as melhores cameras?</h2>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-
-            <!--Modal body-->
-            <div class="modal-body">
-              <p>
-                Às vezes é difícil escolher a câmera ideal para começar na
-                fotografia. Neste artigo, exploro as melhores opções
-                disponíveis, considerando fatores como orçamento, facilidade de
-                uso e recursos essenciais para iniciantes.
-              </p>
-            </div>
-
-            <!--Modal footer-->
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
+        <!--IMG-->
+       <div class="image-mo">
+        <img src="../assets/blog-camera.jpg" class="img-fluid my-3" alt="...">
       </div>
-    </main>
 
-    <!-- FOOTER -->
-    <footer class="container-fluid text-center text-white py-5 bg-black">
-      <div>
-        <hr class="border-secondary" />
-        <h5>Felipa Sato</h5>
+        <p class="texto">
+          Às vezes é difícil escolher a câmera ideal para começar na fotografia.
+          Neste artigo, exploro as melhores opções disponíveis, considerando fatores como orçamento,
+          facilidade de uso e recursos essenciais para iniciantes.
+        </p>
 
-        <ul
-          class="list-unstyled d-flex justify-content-center align-items-center gap-2 m-0 p-0"
-        >
+        <p class="sub-title">
+          Penso no seu objetivo
+        </p>
+        <p class="texto">
+          Antes de comprar, defina o que quer fotografar: viagens, retratos, paisagens ou vídeos.
+          Isso ajuda a escolher o tipo certo de camera.
+        </p>
+
+        <p class="sub-title">
+          Tipo de cameras
+        </p>
+        <div class="texto">
+          <ul>
+            <li>Compactas: Simples e baratas, boas para quem quer praticidade</li>
+            <li>Mirrorless: leves, com ótima qualidade de imagem e lentes intercambiáveis</li>
+            <li>DSLR: mais robustas, com controles manuais e excelente desempenho.</li>
+          </ul>
+        </div>
+
+        <p class="sub-title">
+          O que vale procurar
+        </p>
+        <div class="texto">
+          <ul>
+            <li>Modo manual</li>
+            <li>Tela articulada</li>
+            <li>Wi-Fi ou Bluetooth</li>
+            <li>Boa duração de bateria</li>
+          </ul>
+        </div>
+
+        <p class="sub-title">
+          Boas opções para iniciantes
+        </p>
+        <div class="texto">
+          <ul>
+            <li>Canon EOS R100: mirrorless acessível e fácil de usar</li>
+            <li>Nikon D5600: DSLR completa para aprender</li>
+            <li>Sony ZV-E10: ideal para quem também quer gravar vídeos</li>
+          </ul>
+        </div>
+
+        <p class="sub-title">
+          Comece com o que tem
+        </p>
+        <p class="texto">
+          Mesmo com o celular, é possível treinar o olhar fotográfico.
+          O mais importante é praticar, experimentar e se divertir com o processo.
+        </p>
+
+      </div>
+
+      <!--Modal footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+
+
+
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!--FOOTER-->
+
+<!--<section id="footer">-->
+  <footer class="container-fluid text-center text-white py-5 bg-black">
+    <div>
+      <hr class="border-secondary" />
+      <h5>Felipa Sato</h5>
+
+        <ul class="list-unstyled d-flex justify-content-center align-items-start gap-2 m-0 p-0">
+          <!-- Instagram -->
           <li>
-            <a
-              href="#"
-              class="text-white text-decoration-none d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="../assets/icons/insta-icon.svg"
-                alt="Instagram"
-                width="30"
-                height="30"
-              />
+            <a href="#" class="text-white text-decoration-none d-flex align-items-center">
+              <img src="../assets/icons/insta-icon.svg" alt="Instagram" width="30" height="30" class="me-2" />
             </a>
           </li>
 
+          <!-- LinkedIn -->
           <li>
-            <a
-              href="#"
-              class="text-white text-decoration-none d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="../assets/icons/linkedin-icon.svg"
-                alt="LinkedIn"
-                width="30"
-                height="30"
-              />
+            <a href="#" class="text-white text-decoration-none d-flex align-items-center">
+              <img src="../assets/icons/linkedin-icon.svg" alt="LinkedIn" width="30" height="30" class="me-2" />
             </a>
           </li>
 
+          <!-- Facebook -->
           <li>
-            <a
-              href="#"
-              class="text-white text-decoration-none d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="../assets/icons/facebook-icon.svg"
-                alt="Facebook"
-                width="30"
-                height="30"
-              />
+            <a href="#" class="text-white text-decoration-none d-flex align-items-center">
+              <img src="../assets/icons/facebook-icon.svg" alt="Facebook" width="30" height="30" class="me-2" />
             </a>
           </li>
         </ul>
-
-        <p class="footer-credit m-3">Powered by Aricia, Jandira and Mayara</p>
+          <p class="footer-credit m-3">Powered by Aricia, Jandira and Mayara</p>
       </div>
     </footer>
+  <!--</section>-->
 
-    <!--bootstrap-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+
+
+<!--bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
 </html>
