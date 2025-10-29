@@ -68,14 +68,9 @@ ul.list-unstyled img {
 }
 
 /*==========MODAL==========*/
-/* .modal-dialog {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .modal-content {
   color: #000;
+  background-color: #fff;
   /* margin: auto; */
   /* background-color: #000; */
   /* border-radius: 18px; */
@@ -84,6 +79,7 @@ ul.list-unstyled img {
 }
 
 .modal-title {
+  text-align: center;
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -102,32 +98,32 @@ ul.list-unstyled img {
 /* Image */
 .image-mo {
   text-align: center;
+  margin-bottom: 1rem;
   max-width: 60%;
   height: auto;
   border-radius: 16px;
-  /* box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease; */
 }
 
 .image-mo img {
-  /* max-width: 60%;
-  height: auto; */
   border-radius: 16px;
   display: block;
   margin: 1rem auto;
   max-width: 80%;
+  height: auto;
 }
 
 /* Body */
 .modal-body {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: center; */
   background-color: #fff;
   padding: 1.5rem 2rem;
   line-height: 1.7;
   font-size: 1rem;
+  max-width: block;
+  margin: 0 auto;
 }
 
 .texto {
@@ -136,25 +132,22 @@ ul.list-unstyled img {
   margin-top: 0.3rem;
   font-size: 18px;
   letter-spacing: 1px;
-  text-align: center;
-  max-width: 700px;
+  text-align: left;
 }
 
 .sub-title {
   font-weight: 600;
-  /* color: #f0a6a6; */
   font-size: 30px;
   margin-top: 1.2rem;
   margin-bottom: 0.2rem;
-  /* text-align: center; */
-  /* max-width: 700px; */
+
 }
 
 /* Lists */
 .texto ul {
   margin: 0 0 1rem 1.2rem;
   padding: 0;
-  list-style-type: circle; /*não está a funcionar*/
+  list-style-type: circle;
   letter-spacing: 1px;
 }
 
