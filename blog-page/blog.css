@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+/*==========Geral==========*/
 body {
   background-color: #000;
   color: #fff;
   scroll-behavior: smooth;
+  font-family: "Work Sans", sans-serif;
 }
 
 a {
@@ -18,7 +18,7 @@ ul.list-unstyled img {
   filter: brightness(0) invert(1);
 }
 
-/*CONTEÚDOS*/
+/*==========CONTEÚDOS==========*/
 .card {
   background-color: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -62,3 +62,119 @@ ul.list-unstyled img {
   font-size: 0.95rem;
   line-height: 1.4;
 }
+
+.text-body-secondary {
+  color: #e7bbbb!important;
+}
+
+/*==========MODAL==========*/
+#exampleModal .modal-content {
+  /* background-color: #000; */
+  color: #000;
+  /* border-radius: 18px; */
+  /* border: none; */
+  /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); */
+}
+
+.modal-title {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 40px;  /*font-size: 1.75rem;*/
+}
+
+.btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+}
+
+.btn-close:hover {
+  opacity: 1;
+}
+
+/* Image */
+.image-mo {
+  text-align: center;
+  max-width: 60%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-mo img {
+  /* max-width: 60%;
+  height: auto; */
+  border-radius: 16px;
+}
+
+/* Body */
+.modal-body {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.sub-title {
+  font-weight: 600;
+  /* color: #f0a6a6; */
+  font-size: 30px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.texto {
+  color: #000;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+/* Lists */
+.texto ul {
+  margin: 0 0 1rem 1.2rem;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.texto li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.modal-footer {
+  background-color: #fff;
+  border-top: 1px solid #e2e2e2;
+  padding: 1rem 2rem;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+#exampleModal .btn-secondary {
+  background-color: #007bff;
+  border: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+#exampleModal .btn-secondary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsividade */
+/* 
+@media (max-width: 768px) {
+  #exampleModal .modal-body {
+    padding: 1rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  #exampleModal .modal-title {
+    font-size: 1.4rem;
+  }
+
+  #exampleModal .image-mo img {
+    max-width: 100%;
+  }
+} 
+  */
