@@ -64,18 +64,13 @@ ul.list-unstyled img {
 }
 
 .text-body-secondary {
-  color: #e7bbbb!important;
+  color: #d3cbcb!important;
 }
 
 /*==========MODAL==========*/
 .modal-content {
   color: #000;
   background-color: #fff;
-  /* margin: auto; */
-  /* background-color: #000; */
-  /* border-radius: 18px; */
-  /* border: none; */
-  /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); */
 }
 
 .modal-title {
@@ -101,7 +96,6 @@ ul.list-unstyled img {
   margin-bottom: 1rem;
   max-width: 60%;
   height: auto;
-  border-radius: 16px;
 }
 
 .image-mo img {
@@ -114,16 +108,15 @@ ul.list-unstyled img {
 
 /* Body */
 .modal-body {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center; */
   background-color: #fff;
-  padding: 1.5rem 2rem;
+  padding: 2rem; /*padding: 1.5rem 2rem; */
   line-height: 1.7;
   font-size: 1rem;
-  max-width: block;
   margin: 0 auto;
+  max-width: block; /*max-width: block;*/
 }
 
 .texto {
@@ -132,15 +125,19 @@ ul.list-unstyled img {
   margin-top: 0.3rem;
   font-size: 18px;
   letter-spacing: 1px;
-  text-align: left;
+  text-align: justify; /*text-align: left;*/
+  max-width: 700px;
+  width: 100%;
 }
 
 .sub-title {
+  width: 100%;
   font-weight: 600;
   font-size: 30px;
   margin-top: 1.2rem;
   margin-bottom: 0.2rem;
-
+  text-align: left;
+  max-width: 700px;
 }
 
 /* Lists */
