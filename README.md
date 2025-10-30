@@ -3,6 +3,9 @@
 Este projeto apresenta o **portfólio profissional de Felipa Sato**, uma fotógrafa especializada em retratos, estúdios e casamentos.  
 O site foi desenvolvido com **HTML5**, **CSS3** e **Bootstrap 5**, com foco em **design responsivo**, **navegação intuitiva** e **valorização visual das imagens**.
 
+LINK GITHUB PAGE:
+https://mayarasampaio.github.io/portfolio-fotografia/
+
 ---
 PÁGINA INICIAL:
 
