@@ -70,7 +70,7 @@ ul.list-unstyled img {
 
 @media (max-width: 480px) {
   .card.bg-black img {
-    height: 240px;
+    height: 380px;
   }
 }
 
@@ -80,3 +80,5 @@ ul.list-unstyled img {
   transition-duration: 0.9s; /* duração mais longa para suavidade */
   transition-timing-function: ease-in-out; /* easing suave */
 }
+
+
